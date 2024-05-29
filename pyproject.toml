@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "src/mntpyspark"
+version = "0.1.0"
+description = "Study pyspark"
+authors = ["mykolavasyliv <vmv_gaz@yahoo.com>"]
+readme = "README.md"
+packages = [{include = "src"}]
+
+[tool.poetry.dependencies]
+python = "3.12"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
